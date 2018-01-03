@@ -66,6 +66,7 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     'example.pipelines.PriceConverterPipeline': 300,
     'example.pipelines.DuplicatesPipeline': 350,
+    'example.pipelines.MongoDBPipeline': 400,
 
 }
 
@@ -89,3 +90,6 @@ ITEM_PIPELINES = {
 # HTTPCACHE_DIR = 'httpcache'
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+DB_URI = 'mongodb://localhost:27017/'
+DB_NAME = 'scrapy_data'

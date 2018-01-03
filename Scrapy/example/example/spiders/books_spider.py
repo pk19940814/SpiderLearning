@@ -7,6 +7,7 @@
 
 import scrapy
 from ..items import BookItem
+from scrapy.linkextractor import LinkExtractor
 
 
 class BooksSpider(scrapy.Spider):
@@ -46,3 +47,10 @@ class BooksSpider(scrapy.Spider):
             # 如果找到下一页的url，得到绝对路径，重新构造新的request对象
             next_url = response.urljoin(next_url)
             yield scrapy.Request(next_url, callback=self.parse_book)
+
+        # 或者用下面这种方法
+        # le = LinkExtractor(restrict_css='ul.pager li.next')
+        # links = le.extract_links(response)
+        # if links:
+        #     next_url = links[0].url
+        #     yield scrapy.Request(next_url, callback=self.parse_book)

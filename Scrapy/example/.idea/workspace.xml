@@ -5,9 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/books1.csv" afterPath="$PROJECT_DIR$/books1.csv" />
       <change beforePath="$PROJECT_DIR$/books2.csv" afterPath="$PROJECT_DIR$/books2.csv" />
-      <change beforePath="$PROJECT_DIR$/example/pipelines.py" afterPath="$PROJECT_DIR$/example/pipelines.py" />
-      <change beforePath="$PROJECT_DIR$/example/settings.py" afterPath="$PROJECT_DIR$/example/settings.py" />
-      <change beforePath="$PROJECT_DIR$/example/spiders/books_spider.py" afterPath="$PROJECT_DIR$/example/spiders/books_spider.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -292,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1514349113528</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="pipeline and link executor">
+      <created>1514989766893</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1514989766894</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -330,7 +334,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="try  pipeline" />
-    <option name="LAST_COMMIT_MESSAGE" value="try  pipeline" />
+    <MESSAGE value="pipeline and link executor" />
+    <option name="LAST_COMMIT_MESSAGE" value="pipeline and link executor" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />

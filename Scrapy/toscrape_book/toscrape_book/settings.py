@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for example project
+# Scrapy settings for toscrape_book project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,13 +9,13 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'example'
+BOT_NAME = 'toscrape_book'
 
-SPIDER_MODULES = ['example.spiders']
-NEWSPIDER_MODULE = 'example.spiders'
+SPIDER_MODULES = ['toscrape_book.spiders']
+NEWSPIDER_MODULE = 'toscrape_book.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-# USER_AGENT = 'example (+http://www.yourdomain.com)'
+# USER_AGENT = 'toscrape_book (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -46,13 +46,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 # SPIDER_MIDDLEWARES = {
-#    'example.middlewares.ExampleSpiderMiddleware': 543,
+#    'toscrape_book.middlewares.ToscrapeBookSpiderMiddleware': 543,
 # }
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
 # DOWNLOADER_MIDDLEWARES = {
-#    'example.middlewares.MyCustomDownloaderMiddleware': 543,
+#    'toscrape_book.middlewares.MyCustomDownloaderMiddleware': 543,
 # }
 
 # Enable or disable extensions
@@ -64,10 +64,8 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See http://scrapy.readthedocs.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'example.pipelines.PriceConverterPipeline': 300,
-    'example.pipelines.DuplicatesPipeline': 350,
-    'example.pipelines.MongoDBPipeline': 400,
-
+    'toscrape_book.pipelines.ToscrapeBookPipeline': 300,
+    'toscrape_book.pipelines.BookPipeline': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -91,7 +89,4 @@ ITEM_PIPELINES = {
 # HTTPCACHE_IGNORE_HTTP_CODES = []
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
-DB_URI = 'mongodb://localhost:27017/'
-DB_NAME = 'scrapy_data'
-
-FEED_EXPORTERS = {'excel': 'example.my_exporters.ExcelItemExporter'}
+FEED_EXPORT_FIELDS = ['upc', 'name', 'price', 'stock', 'review_rating', 'review_num']

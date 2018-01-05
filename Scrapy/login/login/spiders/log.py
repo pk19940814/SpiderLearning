@@ -6,6 +6,9 @@ import json
 from PIL import Image
 from io import BytesIO
 import pytesseract
+import requests
+import base64
+from pprint import pprint
 
 
 class LogSpider(scrapy.Spider):
@@ -92,4 +95,28 @@ class CaptchaLoginSpider(scrapy.Spider):
         captcha = pytesseract.image_to_string(img)
         img.close()
 
+        return captcha
+
+    def get_captcha_by_network(self, data):
+        url = "http://ali-checkcode.showapi.com/checkcode"
+        appcode = 'f23cca37f287418a90e2f922649273c4'
+        form = {}
+        form['convert_to_jpg'] = '0'
+        form['img_base64'] = base64.b64encode(data)
+        form['typeId'] = '3040'
+
+        headers = {'Authorization': 'APPCODE' + appcode}
+        response = requests.post(url, headers=headers, data=form)
+        res = response.json()
+        if res['showapi_res_code'] == 0:
+            return res['showapi_res_bode']['Result']
+
+        return ''
+
+    def get_captcha_by_user(self, data):
+        # 人工识别
+        img = Image.open(BytesIO(data))
+        img.show()
+        captcha = input('请输入验证码:')
+        img.close()
         return captcha

@@ -8,6 +8,11 @@
 import scrapy
 
 
+class Book(scrapy.Item):
+    name = scrapy.Field()
+    price = scrapy.Field()
+
+
 class SplashExamplesItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()

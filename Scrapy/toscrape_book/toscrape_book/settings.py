@@ -10,6 +10,14 @@
 #     http://scrapy.readthedocs.org/en/latest/topics/spider-middleware.html
 
 BOT_NAME = 'toscrape_book'
+SQLITE_DB_NAME = 'scrapy.db'
+MYSQL_DB_NAME = 'scrapy_db'
+MYSQL_HOST = 'localhost'
+MYSQL_USER = 'root'
+MYSQL_PASSWORD = '0814'
+
+MONGODB_URI = 'mongodb://localhost:27017'
+MONGODB_DB_NAME = 'scrapy_data'
 
 SPIDER_MODULES = ['toscrape_book.spiders']
 NEWSPIDER_MODULE = 'toscrape_book.spiders'
@@ -18,7 +26,7 @@ NEWSPIDER_MODULE = 'toscrape_book.spiders'
 # USER_AGENT = 'toscrape_book (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 32
@@ -66,6 +74,11 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     'toscrape_book.pipelines.ToscrapeBookPipeline': 300,
     'toscrape_book.pipelines.BookPipeline': 400,
+    'toscrape_book.pipelines.RedisPipeline': 450,
+    # 'toscrape_book.pipelines.SQLitePipeline': 450,
+    # 'toscrape_book.pipelines.MySQLPipeline': 450,
+    # 'toscrape_book.pipelines.MongoDBPipeline': 450,
+    # 'toscrape_book.pipelines.MySQLAsyncPipeline': 450,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

@@ -51,9 +51,14 @@ ROBOTSTXT_OBEY = False
 
 # Enable or disable downloader middlewares
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html
-# DOWNLOADER_MIDDLEWARES = {
-#    'proxy_example.middlewares.MyCustomDownloaderMiddleware': 543,
-# }
+DOWNLOADER_MIDDLEWARES = {
+    'proxy_example.middlewares.RandomHttpProxyMiddleware': 745,
+    # 'proxy_example.middlewares.MyCustomDownloaderMiddleware': 543,
+}
+
+HTTPPROXY_PROXY_LIST_FILE = 'proxylist.json'
+
+HTTPPROXY_AUTH_ENCODING = 'latin-1'
 
 # Enable or disable extensions
 # See http://scrapy.readthedocs.org/en/latest/topics/extensions.html

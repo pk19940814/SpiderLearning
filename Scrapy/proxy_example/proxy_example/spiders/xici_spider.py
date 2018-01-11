@@ -71,3 +71,15 @@ class XiciSpider(scrapy.Spider):
                 'proxy_scheme': response.meta['_proxy_scheme'],
                 'proxy': response.meta['proxy']
             }
+
+
+class TestRandomProxySpider(scrapy.Spider):
+    name = "test_random_proxy"
+
+    def start_requests(self):
+        for _ in range(5):
+            yield Request('http://httpbin.org/ip', dont_filter=True)
+            yield Request('https://httpbin.org/ip', dont_filter=True)
+
+    def parse(self, response):
+        print(json.loads(response.text))

@@ -19,6 +19,10 @@ MYSQL_PASSWORD = '0814'
 MONGODB_URI = 'mongodb://localhost:27017'
 MONGODB_DB_NAME = 'scrapy_data'
 
+REDIS_HOST = 'localhost'
+REDIS_PORT = 6379
+REDIS_DB_INDEX = 1
+
 SPIDER_MODULES = ['toscrape_book.spiders']
 NEWSPIDER_MODULE = 'toscrape_book.spiders'
 

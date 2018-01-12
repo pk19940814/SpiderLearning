@@ -26,6 +26,11 @@ REDIS_DB_INDEX = 1
 SPIDER_MODULES = ['toscrape_book.spiders']
 NEWSPIDER_MODULE = 'toscrape_book.spiders'
 
+REDIS_URL = 'redis://127.0.0.1:6379'
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+SCHEDULER_PERSIST = True
+
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'toscrape_book (+http://www.yourdomain.com)'
 
@@ -79,6 +84,7 @@ ITEM_PIPELINES = {
     'toscrape_book.pipelines.ToscrapeBookPipeline': 300,
     'toscrape_book.pipelines.BookPipeline': 400,
     'toscrape_book.pipelines.RedisPipeline': 450,
+    # 'scrapy_redis.pipelines.RedisPipeline': 300,
     # 'toscrape_book.pipelines.SQLitePipeline': 450,
     # 'toscrape_book.pipelines.MySQLPipeline': 450,
     # 'toscrape_book.pipelines.MongoDBPipeline': 450,

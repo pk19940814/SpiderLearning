@@ -1,30 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0fc8f9e-404f-46dd-83b0-ed924c65ec17" name="Default" comment="douban">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/read_redis.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis-0.6.8.dist-info/DESCRIPTION.rst" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis-0.6.8.dist-info/INSTALLER" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis-0.6.8.dist-info/METADATA" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis-0.6.8.dist-info/RECORD" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis-0.6.8.dist-info/WHEEL" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis-0.6.8.dist-info/metadata.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis-0.6.8.dist-info/top_level.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/connection.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/defaults.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/dupefilter.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/picklecompat.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/pipelines.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/queue.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/scheduler.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/spiders.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/utils.py" />
-      <change beforePath="$PROJECT_DIR$/.idea/Scrapy.iml" afterPath="$PROJECT_DIR$/.idea/Scrapy.iml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="b0fc8f9e-404f-46dd-83b0-ed924c65ec17" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/csq51job/51job.csv" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/csq51job/51job.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/csq51job/csq51job/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/csq51job/csq51job/items.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/csq51job/csq51job/middlewares.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/csq51job/csq51job/pipelines.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/csq51job/csq51job/settings.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/csq51job/csq51job/spiders/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/csq51job/csq51job/spiders/csq51.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Scrapy/csq51job/scrapy.cfg" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/settings.py" afterPath="$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/settings.py" />
-      <change beforePath="$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/spiders/books.py" afterPath="$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/spiders/books.py" />
+      <change beforePath="$PROJECT_DIR$/Scrapy/venv3/pip-selfcheck.json" afterPath="$PROJECT_DIR$/Scrapy/venv3/pip-selfcheck.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,68 +34,38 @@
     <expand />
     <select />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="books.py" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/spiders/books.py">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="317">
+                    <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+                    <folding>
+                      <element signature="e#24#37#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Scrapy" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapy/proxy_example/proxy_example/middlewares.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pip3" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapy/venv3/bin/pip3">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pip3.6" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapy/venv3/bin/pip3.6">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="books.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/spiders/books.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
-              <folding>
-                <element signature="e#24#37#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/items.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+            <state relative-caret-position="212">
+              <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -115,8 +74,8 @@
       <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/pipelines.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+            <state relative-caret-position="399">
+              <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <marker date="1515656920152" expanded="true" signature="1503:1541" ph="INSERT INTO books... " />
                 <marker date="1515656920152" expanded="true" signature="2565:2609" ph="INSERT INTO books... " />
@@ -126,33 +85,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="read_redis.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/read_redis.py">
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scrapy/csq51job/csq51job/spiders/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding>
-                <element signature="e#119#131#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dupefilter.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/dupefilter.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pip" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Scrapy/venv3/bin/pip">
+      <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Scrapy/csq51job/csq51job/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="115">
+              <caret line="18" column="101" lean-forward="false" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="csq51.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scrapy/csq51job/csq51job/spiders/csq51.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+              <folding>
+                <element signature="e#24#37#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="items.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Scrapy/csq51job/csq51job/items.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="302">
+              <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -244,6 +213,9 @@
         <option value="$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/spiders/books.py" />
         <option value="$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/pipelines.py" />
         <option value="$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/read_redis.py" />
+        <option value="$PROJECT_DIR$/Scrapy/csq51job/csq51job/items.py" />
+        <option value="$PROJECT_DIR$/Scrapy/csq51job/csq51job/spiders/csq51.py" />
+        <option value="$PROJECT_DIR$/Scrapy/csq51job/csq51job/settings.py" />
       </list>
     </option>
   </component>
@@ -254,8 +226,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="40" />
-    <option name="y" value="35" />
+    <option name="x" value="93" />
+    <option name="y" value="45" />
     <option name="width" value="1400" />
     <option name="height" value="757" />
   </component>
@@ -297,7 +269,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,6 +280,48 @@
               <item name="ScrapySpider" type="b2602c69:ProjectViewProjectNode" />
               <item name="ScrapySpider" type="462c0819:PsiDirectoryNode" />
               <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScrapySpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScrapySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="csq51job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScrapySpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScrapySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="csq51job" type="462c0819:PsiDirectoryNode" />
+              <item name="csq51job" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScrapySpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScrapySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="csq51job" type="462c0819:PsiDirectoryNode" />
+              <item name="csq51job" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScrapySpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScrapySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="douban_movie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScrapySpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScrapySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="douban_movie" type="462c0819:PsiDirectoryNode" />
+              <item name="douban_movie" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScrapySpider" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScrapySpider" type="462c0819:PsiDirectoryNode" />
+              <item name="Scrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="douban_movie" type="462c0819:PsiDirectoryNode" />
+              <item name="douban_movie" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ScrapySpider" type="b2602c69:ProjectViewProjectNode" />
@@ -335,6 +348,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -414,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1515736931021</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="redis distribution">
+      <created>1515748109568</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1515748109568</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="4">
@@ -427,29 +448,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="35" width="1400" height="757" extended-state="0" />
+    <frame x="93" y="45" width="1400" height="757" extended-state="0" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5029455" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141994" sideWeight="0.51178205" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3141994" sideWeight="0.4970545" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27098674" sideWeight="0.49118942" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3141994" sideWeight="0.48821798" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2820324" sideWeight="0.49118942" order="0" side_tool="false" content_ui="combo" />
       <window_info id="R Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="R Graphics" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298969" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25679758" sideWeight="0.5088106" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -487,7 +508,8 @@
     <MESSAGE value="new" />
     <MESSAGE value="image" />
     <MESSAGE value="douban" />
-    <option name="LAST_COMMIT_MESSAGE" value="douban" />
+    <MESSAGE value="redis distribution" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis distribution" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -496,48 +518,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Scrapy/login/login/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/train_ticket/train_ticket/spiders/ticket.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/train_ticket/train_ticket/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/login/login/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/browser_cookie/browser_cookie/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/browser_cookie/browser_cookie/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="18" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapy/login/login/spiders/log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -595,13 +575,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/so_image/so_image/spiders/images.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Scrapy/splash_examples/books.csv">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -648,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4663">
           <caret line="174" column="8" lean-forward="false" selection-start-line="174" selection-start-column="8" selection-end-line="174" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -670,7 +642,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="166">
           <caret line="25" column="28" lean-forward="false" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -701,7 +672,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -709,7 +679,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -717,9 +686,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
-          <folding>
-            <element signature="e#24#37#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,7 +693,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="795">
           <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="60" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,7 +700,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="945">
           <caret line="63" column="68" lean-forward="false" selection-start-line="63" selection-start-column="68" selection-end-line="63" selection-end-column="68" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -743,7 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -751,17 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/douban_movie/douban_movie/spiders/movies_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-          <folding>
-            <element signature="e#122#135#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -769,7 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -777,13 +728,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scrapy/proxy_example/proxy_example/middlewares.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="180">
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
@@ -797,7 +747,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/venv3/bin/pip3">
+    <entry file="file://$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/dupefilter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/a51job.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -813,36 +771,60 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/settings.py">
+    <entry file="file://$PROJECT_DIR$/Scrapy/venv3/bin/pip3">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="31" column="24" lean-forward="false" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/items.py">
+    <entry file="file://$PROJECT_DIR$/Scrapy/csq51job/csq51job/spiders/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/spiders/books.py">
+    <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/read_redis.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="68" column="18" lean-forward="false" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        <state relative-caret-position="165">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#24#37#0" expanded="true" />
+            <element signature="e#119#131#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/so_image/so_image/spiders/images.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/douban_movie/douban_movie/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/douban_movie/douban_movie/spiders/movies_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/pipelines.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="18" column="19" lean-forward="true" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+        <state relative-caret-position="399">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <marker date="1515656920152" expanded="true" signature="1503:1541" ph="INSERT INTO books... " />
             <marker date="1515656920152" expanded="true" signature="2565:2609" ph="INSERT INTO books... " />
@@ -851,20 +833,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/read_redis.py">
+    <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="302">
+          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="16" column="6" lean-forward="false" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/toscrape_book/toscrape_book/spiders/books.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="317">
+          <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
           <folding>
-            <element signature="e#119#131#0" expanded="true" />
+            <element signature="e#24#37#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Scrapy/venv3/lib/python3.6/site-packages/scrapy_redis/dupefilter.py">
+    <entry file="file://$PROJECT_DIR$/Scrapy/csq51job/csq51job/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state relative-caret-position="302">
+          <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/csq51job/csq51job/spiders/csq51.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="30" column="30" lean-forward="false" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="e#24#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Scrapy/csq51job/csq51job/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="18" column="101" lean-forward="false" selection-start-line="18" selection-start-column="101" selection-end-line="18" selection-end-column="101" />
           <folding />
         </state>
       </provider>
